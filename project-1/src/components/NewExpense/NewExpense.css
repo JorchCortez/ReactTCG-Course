@@ -1,0 +1,82 @@
+.new-expense {
+    background-color: #131416;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 60%;  
+    text-align: center; 
+}
+
+.new-expense button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #4E5D94;
+    background-color: #4E5D94;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+    text-transform:uppercase ;
+    transition: all 0.20s ease-in;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    outline: none
+}
+
+.new-expense button:hover,
+.new-expense button:active {
+    background-color: #7289DA;
+    border-color: #7289DA;
+    color: #23272A;
+    outline: none
+}
+
+.new-expense button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.new-expense button.alternative:hover,
+.new-expense button.alternative:active {
+    background-color: #ddb3f8;
+}
+
+.form-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+
+.form-control__item{
+    padding: 10px
+}
+
+.form-control__item label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: white;
+}
+
+.form-control__item input {
+    font: inherit;
+    padding: 1rem;
+    border-radius: 6px;
+    border: none;
+    width: 20rem;
+    max-width: 100%;
+    background: #36393E; 
+    color: white;
+    outline: none
+}
+.form-control__item input::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.form-action {
+    text-align: right;
+}

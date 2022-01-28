@@ -14,3 +14,9 @@ So that is pretty much it for how I'll be working with the course and why now I'
 
 
 ### Project  #1 - Expense tracker
+The Expense Tracker app, first app of the course makes use of the following:
+- Custom components
+- Container components
+- useState() Hook
+- Events
+- Forms
