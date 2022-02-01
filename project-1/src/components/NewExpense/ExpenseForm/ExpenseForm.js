@@ -29,7 +29,7 @@ const ExpenseForm = (props) => {
         setDate('')
         setAmount('')
         console.table(expenseData)
-        props.updateExpenses(expenseData)
+        props.onSaveExpenseData(expenseData)
     }
 
     return (

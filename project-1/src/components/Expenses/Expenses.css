@@ -4,3 +4,13 @@
     background-color: #131416; 
     padding: 15px
 }
+
+.expenses .expense-404{
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 700;
+    color: white;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}

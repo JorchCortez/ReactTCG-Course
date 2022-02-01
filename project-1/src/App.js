@@ -14,15 +14,12 @@ function App() {
 
   const [expenses, setExpenses] = useState(_expenses)
 
-  const updateExpenses = (newExpense) => {
-    const _e = [...expenses, newExpense]
-    setExpenses(_e)
+  const updateExpenses = (newExpense) => { 
+    setExpenses(prevExpenses => [newExpense, ...prevExpenses])
   }
 
   return (
     <div>
-        <h2>Hello There!</h2>
-        <p>asdfgh</p>
         <NewExpense updateExpenses={updateExpenses}/>
         <Expenses expenses={expenses} />
         
