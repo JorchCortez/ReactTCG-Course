@@ -20,3 +20,7 @@ The Expense Tracker app, first app of the course makes use of the following:
 - useState() Hook
 - Events
 - Forms
+
+### Project  #2 - Task tracker
+The Task Tracker app, second app of the course was pretty much the same as the first one but was focusing more on the different ways to style components.
+
