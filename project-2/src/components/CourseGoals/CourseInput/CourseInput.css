@@ -6,19 +6,31 @@
   font-weight: bold;
   display: block;
   margin-bottom: 0.5rem;
+  color: #99aab5;
 }
 
 .form-control input {
   display: block;
-  width: 100%;
-  border: 1px solid #ccc;
+  width: 100%; 
   font: inherit;
   line-height: 1.5rem;
-  padding: 0 0.25rem;
+  padding: 0.5rem 1.5rem;
+  background-color: #99aab5;
+  outline: none;
+  border: none;
+  border-radius: 5px;
 }
 
 .form-control input:focus {
   outline: none;
-  background: #fad0ec;
-  border-color: #8b005d;
+  background-color: #99aab5; 
+}
+
+.form-control.error{
+  color: #bb4646; 
+}
+
+.form-control.error> input {
+  border: 1px solid #bb4646;
+  background: #dd8d8d;
 }

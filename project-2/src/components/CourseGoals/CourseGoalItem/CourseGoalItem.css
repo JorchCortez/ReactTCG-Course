@@ -1,8 +1,31 @@
 .goal-item {
+  position: relative;
   margin: 1rem 0;
-  background: #8b005d;
+  background: #7289da;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   color: white;
   padding: 1rem 2rem;
   cursor: pointer;
+  border-radius: 5px; 
+  overflow: hidden;
+} 
+
+.goal-item span{
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0;
+  width: 0;
+  overflow: hidden;
+  text-align: center;
+  background: #d63267;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transition: all 0.15s ease-in-out;
+}
+
+.goal-item:hover span{ 
+  width: 100%; 
 }

@@ -36,7 +36,7 @@ const App = () => {
   }
 
   return (
-    <div>
+    <div className='goals-container'>
       <section id="goal-form">
         <CourseInput onAddGoal={addGoalHandler} />
       </section>
