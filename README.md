@@ -26,4 +26,3 @@ The Task Tracker app, second app of the course was pretty much the same as the f
 
 ### Project #3 - Form with input validation
 Simple form with input validation, not anything fancy just... a form that validates user input
-
