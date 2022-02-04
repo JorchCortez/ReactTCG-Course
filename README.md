@@ -24,3 +24,6 @@ The Expense Tracker app, first app of the course makes use of the following:
 ### Project  #2 - Task tracker
 The Task Tracker app, second app of the course was pretty much the same as the first one but was focusing more on the different ways to style components.
 
+### Project #3 - Form with input validation
+Simple form with input validation, not anything fancy just... a form that validates user input
+
