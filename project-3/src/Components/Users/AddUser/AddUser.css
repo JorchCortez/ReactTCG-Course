@@ -1,16 +1,30 @@
-.form-control{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    width: 100%;
-    paddig:20px;
+*{ 
+  box-sizing: border-box;
+}
+.flex-form{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 25px
 }
 
-.input {
-    margin: 2rem auto;
-    padding: 1rem;
-    width: 90%;
-    max-width: 40rem;
+.form-control{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: 100%; 
+}
+
+.form-control label{
+  width: 100%;
+}
+
+.form-control input {
+    margin: 10px 0;
+    padding: 1rem; 
+    width: 100%;
+
   }
   
   .input label {
