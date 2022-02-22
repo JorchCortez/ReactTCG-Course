@@ -7,7 +7,6 @@ const AddUser = (props) => {
         event.preventDefault();
     }
 
-
     return(
         <Card>
             <form className='flex-form' onSubmit={addUserHandler}>

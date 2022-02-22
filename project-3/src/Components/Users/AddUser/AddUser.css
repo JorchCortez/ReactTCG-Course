@@ -40,9 +40,12 @@
     font: inherit;
     display: block;
     width: 100%;
-    border: 1px solid #ccc;
+    border: none;
     padding: 0.15rem;
     margin-bottom: 0.5rem;
+    border-radius: 5px;
+    outline: none; 
+    background-color: #99aab5;
   }
   
   .input input:focus {
