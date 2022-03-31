@@ -22,7 +22,6 @@ const AddUser = (props) => {
             </form>
         </Card>
     )
-
 }
 
 export default AddUser;
