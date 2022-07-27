@@ -1,0 +1,17 @@
+.card.user{
+    padding: 25px;
+}
+
+ul { 
+    list-style: none;
+}
+
+li { 
+    padding: 25px;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: black;
+    transition: all ease-in-out 200ms;
+}
